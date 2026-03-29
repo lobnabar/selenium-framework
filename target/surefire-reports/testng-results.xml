@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٠١ EET" name="nopCommerce Regression Suite" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٩ EET" duration-ms="127734">
+    <groups>
+    </groups>
+    <test started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٠١ EET" name="Regression Test" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٩ EET" duration-ms="127734">
+      <class name="tests.EmailFriendTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.EmailFriendTest@2b662a77]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠١ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٣ EET" duration-ms="1925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userCanRegisterAndLoginSuccessfully()[pri:1, instance:tests.EmailFriendTest@2b662a77]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٣ EET" name="userCanRegisterAndLoginSuccessfully" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٤ EET" duration-ms="1600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterAndLoginSuccessfully -->
+        <test-method signature="UserCanSearchAutoSuggest()[pri:2, instance:tests.EmailFriendTest@2b662a77]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٤ EET" name="UserCanSearchAutoSuggest" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٦ EET" duration-ms="1530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchAutoSuggest -->
+        <test-method signature="RegisteredUserCanSendProductToFriend()[pri:3, instance:tests.EmailFriendTest@2b662a77]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٦ EET" name="RegisteredUserCanSendProductToFriend" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٧ EET" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanSendProductToFriend -->
+        <test-method signature="RegisteredUserCanLogout()[pri:4, instance:tests.EmailFriendTest@2b662a77]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٧ EET" name="RegisteredUserCanLogout" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٧ EET" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EmailFriendTest@2b662a77]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٧ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٧ EET" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.EmailFriendTest -->
+      <class name="tests.AddProductToWishlistTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.AddProductToWishlistTest@77847718]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٩ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥١ EET" duration-ms="1965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="UserCanSearchAutoSuggest()[pri:1, instance:tests.AddProductToWishlistTest@77847718]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥١ EET" name="UserCanSearchAutoSuggest" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٢ EET" duration-ms="1551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchAutoSuggest -->
+        <test-method signature="UserCanAddProductToWishlist()[pri:2, instance:tests.AddProductToWishlistTest@77847718]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٢ EET" name="UserCanAddProductToWishlist" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٣ EET" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanAddProductToWishlist -->
+        <test-method signature="UserCanRemoveProductFromCart()[pri:3, instance:tests.AddProductToWishlistTest@77847718]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٣ EET" name="UserCanRemoveProductFromCart" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٣ EET" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRemoveProductFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddProductToWishlistTest@77847718]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٣ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٣ EET" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddProductToWishlistTest -->
+      <class name="tests.UserRegistrationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.UserRegistrationTest@223d2c72]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٠١ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٢٣ EET" duration-ms="22210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userCanRegisterAndLoginSuccessfully()[pri:0, instance:tests.UserRegistrationTest@223d2c72]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٢٣ EET" name="userCanRegisterAndLoginSuccessfully" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٢٨ EET" duration-ms="4546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterAndLoginSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserRegistrationTest@223d2c72]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٢٨ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٢٨ EET" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UserRegistrationTest -->
+      <class name="tests.RegisteredUserCheckoutProduct">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.RegisteredUserCheckoutProduct@1623b78d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤١ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤٣ EET" duration-ms="1850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="UserCanRegisterSuccessfully()[pri:1, instance:tests.RegisteredUserCheckoutProduct@1623b78d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤٣ EET" name="UserCanRegisterSuccessfully" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤٥ EET" duration-ms="1750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccessfully -->
+        <test-method signature="UserCanSearchWithAutosuggest()[pri:2, instance:tests.RegisteredUserCheckoutProduct@1623b78d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤٥ EET" name="UserCanSearchWithAutosuggest" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤٧ EET" duration-ms="1784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchWithAutosuggest -->
+        <test-method signature="UserCanAddProductToShoppingCart()[pri:3, instance:tests.RegisteredUserCheckoutProduct@1623b78d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤٧ EET" name="UserCanAddProductToShoppingCart" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤٨ EET" duration-ms="1561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanAddProductToShoppingCart -->
+        <test-method signature="UserCanCheckoutProduct()[pri:4, instance:tests.RegisteredUserCheckoutProduct@1623b78d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤٨ EET" name="UserCanCheckoutProduct" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٠ EET" duration-ms="12136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanCheckoutProduct -->
+        <test-method signature="RegisteredUserCanLogout()[pri:5, instance:tests.RegisteredUserCheckoutProduct@1623b78d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٠ EET" name="RegisteredUserCanLogout" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠١ EET" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisteredUserCheckoutProduct@1623b78d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠١ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠١ EET" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegisteredUserCheckoutProduct -->
+      <class name="tests.MyAccountTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.MyAccountTest@7f0eb4b4]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٧ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٢٩ EET" duration-ms="22519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userCanRegisterAndLoginSuccessfully()[pri:1, instance:tests.MyAccountTest@7f0eb4b4]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٢٩ EET" name="userCanRegisterAndLoginSuccessfully" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣١ EET" duration-ms="1851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterAndLoginSuccessfully -->
+        <test-method signature="userCanChangePasswordSuccessfully()[pri:2, instance:tests.MyAccountTest@7f0eb4b4]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣١ EET" name="userCanChangePasswordSuccessfully" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٤ EET" duration-ms="2812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanChangePasswordSuccessfully -->
+        <test-method signature="userCanLogout()[pri:3, instance:tests.MyAccountTest@7f0eb4b4]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٤ EET" name="userCanLogout" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٦ EET" duration-ms="1387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanLogout -->
+        <test-method signature="userCanLoginWithNewPassword()[pri:4, instance:tests.MyAccountTest@7f0eb4b4]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٦ EET" name="userCanLoginWithNewPassword" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٧ EET" duration-ms="1110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanLoginWithNewPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MyAccountTest@7f0eb4b4]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٧ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٧ EET" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.MyAccountTest -->
+      <class name="tests.SearchProductTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.SearchProductTest@c8c12ac]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠١ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٣ EET" duration-ms="1826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="UserCanSearchForProduct()[pri:0, instance:tests.SearchProductTest@c8c12ac]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٣ EET" name="UserCanSearchForProduct" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٥ EET" duration-ms="2375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchForProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchProductTest@c8c12ac]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٥ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٥ EET" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchProductTest -->
+      <class name="tests.ProductHoverMenuTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.ProductHoverMenuTest@5c33f1a9]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٧ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٩ EET" duration-ms="2152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="UserCanSelectSubCategoryFromMainMenu()[pri:0, instance:tests.ProductHoverMenuTest@5c33f1a9]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٩ EET" name="UserCanSelectSubCategoryFromMainMenu" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤١ EET" duration-ms="2364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSelectSubCategoryFromMainMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductHoverMenuTest@5c33f1a9]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤١ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤١ EET" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductHoverMenuTest -->
+      <class name="tests.ChangeCurrencyTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.ChangeCurrencyTest@7f3b84b8]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٣ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٥ EET" duration-ms="1859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="UserCanChangeCurrency()[pri:1, instance:tests.ChangeCurrencyTest@7f3b84b8]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٥ EET" name="UserCanChangeCurrency" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٦ EET" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanChangeCurrency -->
+        <test-method signature="UserCanSearchWithAutoSuggest()[pri:2, instance:tests.ChangeCurrencyTest@7f3b84b8]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٦ EET" name="UserCanSearchWithAutoSuggest" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٧ EET" duration-ms="1547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchWithAutoSuggest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ChangeCurrencyTest@7f3b84b8]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٧ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٧ EET" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ChangeCurrencyTest -->
+      <class name="tests.SearchProductUsingAutosugesst">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.SearchProductUsingAutosugesst@6adbc9d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٥ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٧ EET" duration-ms="1888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="UserCanSearchAutoSuggest()[pri:0, instance:tests.SearchProductUsingAutosugesst@6adbc9d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٧ EET" name="UserCanSearchAutoSuggest" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٩ EET" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchAutoSuggest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchProductUsingAutosugesst@6adbc9d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٩ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٩ EET" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchProductUsingAutosugesst -->
+      <class name="tests.ContactUsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.ContactUsTest@57a3af25]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٧ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٩ EET" duration-ms="1827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="UserCanUseContactUs()[pri:0, instance:tests.ContactUsTest@57a3af25]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٩ EET" name="UserCanUseContactUs" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠١ EET" duration-ms="1323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanUseContactUs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactUsTest@57a3af25]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠١ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠١ EET" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ContactUsTest -->
+      <class name="tests.AddProductToShoppingCartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.AddProductToShoppingCartTest@158d2680]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤١ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٣ EET" duration-ms="2006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="UserCanSearchAutoSuggest()[pri:1, instance:tests.AddProductToShoppingCartTest@158d2680]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٣ EET" name="UserCanSearchAutoSuggest" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٤ EET" duration-ms="1700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchAutoSuggest -->
+        <test-method signature="UserCanAddProductToShoppingCart()[pri:2, instance:tests.AddProductToShoppingCartTest@158d2680]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٤ EET" name="UserCanAddProductToShoppingCart" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٩ EET" duration-ms="4163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanAddProductToShoppingCart -->
+        <test-method signature="UserCanRemoveProductFromCart()[pri:3, instance:tests.AddProductToShoppingCartTest@158d2680]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٩ EET" name="UserCanRemoveProductFromCart" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٩ EET" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRemoveProductFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddProductToShoppingCartTest@158d2680]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٩ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٩ EET" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddProductToShoppingCartTest -->
+      <class name="tests.AddProductReviewTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.AddProductReviewTest@131774fe]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٢٨ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٣٠ EET" duration-ms="2008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userCanRegisterAndLoginSuccessfully()[pri:1, instance:tests.AddProductReviewTest@131774fe]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٣٠ EET" name="userCanRegisterAndLoginSuccessfully" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٣٢ EET" duration-ms="1835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterAndLoginSuccessfully -->
+        <test-method signature="UserCanSearchAutoSuggest()[pri:2, instance:tests.AddProductReviewTest@131774fe]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٣٢ EET" name="UserCanSearchAutoSuggest" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٣٨ EET" duration-ms="5599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchAutoSuggest -->
+        <test-method signature="RegisteredUserCanReviewProduct()[pri:3, instance:tests.AddProductReviewTest@131774fe]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٣٨ EET" name="RegisteredUserCanReviewProduct" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٣٩ EET" duration-ms="1457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanReviewProduct -->
+        <test-method signature="RegisteredUserCanLogout()[pri:4, instance:tests.AddProductReviewTest@131774fe]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٣٩ EET" name="RegisteredUserCanLogout" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤١ EET" duration-ms="1478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddProductReviewTest@131774fe]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤١ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤١ EET" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddProductReviewTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- nopCommerce Regression Suite -->
+</testng-results>
