@@ -1,0 +1,14 @@
+# Ignore TestNG execution reports
+/test-output/
+
+# Ignore compiled Java class files
+/target/
+/bin/
+
+# Ignore Eclipse specific files
+.settings/
+.project
+.classpath
+
+# Ignore logs
+/*.log
