@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.RegisteredUserCheckoutProduct">
+      <class name="tests.UserRegistrationParallelTest">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="UserCanCheckoutProduct"/>
+          <include name="setup"/>
+          <include name="stopDriver"/>
+          <include name="userCanRegisterAndLoginSuccessfully"/>
         </methods>
-      </class> <!-- tests.RegisteredUserCheckoutProduct -->
+      </class> <!-- tests.UserRegistrationParallelTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
