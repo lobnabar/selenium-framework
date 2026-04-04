@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Regression Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>28/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Mar 23 14:12:19 EET 2026</td>
+<td>Started on:</td><td>Sat Apr 04 21:07:22 EET 2026</td>
 </tr>
-<tr><td>Total time:</td><td>76 seconds (76658 ms)</td>
+<tr><td>Total time:</td><td>73 seconds (73674 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,192 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.MyAccountTest.userCanLogout()'><b>userCanLogout</b><br>Test class: tests.MyAccountTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/logout&quot; class=&quot;ico-logout&quot;&gt;...&lt;/a&gt; is not clickable at point (1084, 22). Other element would receive the click: &lt;p class=&quot;content&quot;&gt;...&lt;/p&gt;
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [089403a0ebabb85bbc3cf0c51bd0a785, clickElement {id=f.92D5D222A97AE7EB98A6600C3AA95768.d.3E44A1174D56C88D98D3EBE4B76A4EF3.e.158}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\COMPUS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62254}, goog:processID: 18040, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on windows (089403a0ebabb85bbc3cf0c51bd0a785)] -&gt; xpath: //a[text()=&apos;Log out&apos;]]
+Session ID: 089403a0ebabb85bbc3cf0c51bd0a785
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at pages.PageBase.clickButton(PageBase.java:21)
+	at pages.HomePage.userLogout(HomePage.java:61)
+	at tests.MyAccountTest.userCanLogout(MyAccountTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace627597596", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace627597596'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/logout&quot; class=&quot;ico-logout&quot;&gt;...&lt;/a&gt; is not clickable at point (1084, 22). Other element would receive the click: &lt;p class=&quot;content&quot;&gt;...&lt;/p&gt;
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [089403a0ebabb85bbc3cf0c51bd0a785, clickElement {id=f.92D5D222A97AE7EB98A6600C3AA95768.d.3E44A1174D56C88D98D3EBE4B76A4EF3.e.158}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\COMPUS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62254}, goog:processID: 18040, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on windows (089403a0ebabb85bbc3cf0c51bd0a785)] -&gt; xpath: //a[text()=&apos;Log out&apos;]]
+Session ID: 089403a0ebabb85bbc3cf0c51bd0a785
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at pages.PageBase.clickButton(PageBase.java:21)
+	at pages.HomePage.userLogout(HomePage.java:61)
+	at tests.MyAccountTest.userCanLogout(MyAccountTest.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>1</td>
+<td>tests.MyAccountTest@6818d900</td></tr>
+<tr>
+<td title='tests.MyAccountTest.userCanLoginWithNewPassword()'><b>userCanLoginWithNewPassword</b><br>Test class: tests.MyAccountTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log in&quot;}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [089403a0ebabb85bbc3cf0c51bd0a785, findElement {value=Log in, using=link text}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\COMPUS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62254}, goog:processID: 18040, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 089403a0ebabb85bbc3cf0c51bd0a785
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at pages.PageBase.clickButton(PageBase.java:21)
+	at pages.HomePage.openLoginPage(HomePage.java:51)
+	at tests.MyAccountTest.userCanLoginWithNewPassword(MyAccountTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1409497701", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1409497701'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log in&quot;}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [089403a0ebabb85bbc3cf0c51bd0a785, findElement {value=Log in, using=link text}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\COMPUS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62254}, goog:processID: 18040, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 089403a0ebabb85bbc3cf0c51bd0a785
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at pages.PageBase.clickButton(PageBase.java:21)
+	at pages.HomePage.openLoginPage(HomePage.java:51)
+	at tests.MyAccountTest.userCanLoginWithNewPassword(MyAccountTest.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>10</td>
+<td>tests.MyAccountTest@6818d900</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,155 +262,145 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.RegisteredUserCheckoutProduct.UserCanSearchWithAutosuggest()'><b>UserCanSearchWithAutosuggest</b><br>Test class: tests.RegisteredUserCheckoutProduct</td>
-<td></td>
-<td>1</td>
-<td>tests.RegisteredUserCheckoutProduct@510f3d34</td></tr>
-<tr>
-<td title='tests.RegisteredUserCheckoutProduct.UserCanAddProductToShoppingCart()'><b>UserCanAddProductToShoppingCart</b><br>Test class: tests.RegisteredUserCheckoutProduct</td>
-<td></td>
-<td>1</td>
-<td>tests.RegisteredUserCheckoutProduct@510f3d34</td></tr>
-<tr>
-<td title='tests.MyAccountTest.userCanLoginWithNewPassword()'><b>userCanLoginWithNewPassword</b><br>Test class: tests.MyAccountTest</td>
-<td></td>
-<td>0</td>
-<td>tests.MyAccountTest@61322f9d</td></tr>
-<tr>
-<td title='tests.AddProductToShoppingCartTest.UserCanRemoveProductFromCart()'><b>UserCanRemoveProductFromCart</b><br>Test class: tests.AddProductToShoppingCartTest</td>
-<td></td>
-<td>0</td>
-<td>tests.AddProductToShoppingCartTest@45c7e403</td></tr>
-<tr>
-<td title='tests.ChangeCurrencyTest.UserCanChangeCurrency()'><b>UserCanChangeCurrency</b><br>Test class: tests.ChangeCurrencyTest</td>
-<td></td>
-<td>0</td>
-<td>tests.ChangeCurrencyTest@710f4dc7</td></tr>
-<tr>
-<td title='tests.SearchProductTest.UserCanSearchForProduct()'><b>UserCanSearchForProduct</b><br>Test class: tests.SearchProductTest</td>
-<td></td>
-<td>1</td>
-<td>tests.SearchProductTest@7817fd62</td></tr>
-<tr>
-<td title='tests.EmailFriendTest.RegisteredUserCanLogout()'><b>RegisteredUserCanLogout</b><br>Test class: tests.EmailFriendTest</td>
-<td></td>
-<td>0</td>
-<td>tests.EmailFriendTest@65e98b1c</td></tr>
-<tr>
-<td title='tests.AddProductReviewTest.UserCanSearchAutoSuggest()'><b>UserCanSearchAutoSuggest</b><br>Test class: tests.AddProductReviewTest</td>
-<td></td>
-<td>3</td>
-<td>tests.AddProductReviewTest@b3ca52e</td></tr>
-<tr>
-<td title='tests.RegisteredUserCheckoutProduct.UserCanRegisterSuccessfully()'><b>UserCanRegisterSuccessfully</b><br>Test class: tests.RegisteredUserCheckoutProduct</td>
-<td></td>
-<td>1</td>
-<td>tests.RegisteredUserCheckoutProduct@510f3d34</td></tr>
-<tr>
-<td title='tests.MyAccountTest.userCanRegisterAndLoginSuccessfully()'><b>userCanRegisterAndLoginSuccessfully</b><br>Test class: tests.MyAccountTest</td>
-<td></td>
-<td>1</td>
-<td>tests.MyAccountTest@61322f9d</td></tr>
-<tr>
-<td title='tests.MyAccountTest.userCanChangePasswordSuccessfully()'><b>userCanChangePasswordSuccessfully</b><br>Test class: tests.MyAccountTest</td>
-<td></td>
-<td>1</td>
-<td>tests.MyAccountTest@61322f9d</td></tr>
-<tr>
-<td title='tests.AddProductToWishlistTest.UserCanAddProductToWishlist()'><b>UserCanAddProductToWishlist</b><br>Test class: tests.AddProductToWishlistTest</td>
-<td></td>
-<td>0</td>
-<td>tests.AddProductToWishlistTest@2925bf5b</td></tr>
-<tr>
 <td title='tests.AddProductToWishlistTest.UserCanSearchAutoSuggest()'><b>UserCanSearchAutoSuggest</b><br>Test class: tests.AddProductToWishlistTest</td>
 <td></td>
 <td>1</td>
-<td>tests.AddProductToWishlistTest@2925bf5b</td></tr>
-<tr>
-<td title='tests.AddProductReviewTest.RegisteredUserCanReviewProduct()'><b>RegisteredUserCanReviewProduct</b><br>Test class: tests.AddProductReviewTest</td>
-<td></td>
-<td>1</td>
-<td>tests.AddProductReviewTest@b3ca52e</td></tr>
-<tr>
-<td title='tests.EmailFriendTest.userCanRegisterAndLoginSuccessfully()'><b>userCanRegisterAndLoginSuccessfully</b><br>Test class: tests.EmailFriendTest</td>
-<td></td>
-<td>1</td>
-<td>tests.EmailFriendTest@65e98b1c</td></tr>
-<tr>
-<td title='tests.SearchProductUsingAutosugesst.UserCanSearchAutoSuggest()'><b>UserCanSearchAutoSuggest</b><br>Test class: tests.SearchProductUsingAutosugesst</td>
-<td></td>
-<td>1</td>
-<td>tests.SearchProductUsingAutosugesst@8297b3a</td></tr>
-<tr>
-<td title='tests.UserRegistrationTest.userCanRegisterAndLoginSuccessfully()'><b>userCanRegisterAndLoginSuccessfully</b><br>Test class: tests.UserRegistrationTest</td>
-<td></td>
-<td>3</td>
-<td>tests.UserRegistrationTest@2aceadd4</td></tr>
-<tr>
-<td title='tests.ContactUsTest.UserCanUseContactUs()'><b>UserCanUseContactUs</b><br>Test class: tests.ContactUsTest</td>
-<td></td>
-<td>1</td>
-<td>tests.ContactUsTest@1ff4931d</td></tr>
-<tr>
-<td title='tests.AddProductReviewTest.RegisteredUserCanLogout()'><b>RegisteredUserCanLogout</b><br>Test class: tests.AddProductReviewTest</td>
-<td></td>
-<td>1</td>
-<td>tests.AddProductReviewTest@b3ca52e</td></tr>
-<tr>
-<td title='tests.AddProductToShoppingCartTest.UserCanSearchAutoSuggest()'><b>UserCanSearchAutoSuggest</b><br>Test class: tests.AddProductToShoppingCartTest</td>
-<td></td>
-<td>1</td>
-<td>tests.AddProductToShoppingCartTest@45c7e403</td></tr>
-<tr>
-<td title='tests.AddProductReviewTest.userCanRegisterAndLoginSuccessfully()'><b>userCanRegisterAndLoginSuccessfully</b><br>Test class: tests.AddProductReviewTest</td>
-<td></td>
-<td>1</td>
-<td>tests.AddProductReviewTest@b3ca52e</td></tr>
-<tr>
-<td title='tests.AddProductToShoppingCartTest.UserCanAddProductToShoppingCart()'><b>UserCanAddProductToShoppingCart</b><br>Test class: tests.AddProductToShoppingCartTest</td>
-<td></td>
-<td>1</td>
-<td>tests.AddProductToShoppingCartTest@45c7e403</td></tr>
-<tr>
-<td title='tests.ChangeCurrencyTest.UserCanSearchWithAutoSuggest()'><b>UserCanSearchWithAutoSuggest</b><br>Test class: tests.ChangeCurrencyTest</td>
-<td></td>
-<td>1</td>
-<td>tests.ChangeCurrencyTest@710f4dc7</td></tr>
-<tr>
-<td title='tests.RegisteredUserCheckoutProduct.UserCanCheckoutProduct()'><b>UserCanCheckoutProduct</b><br>Test class: tests.RegisteredUserCheckoutProduct</td>
-<td></td>
-<td>8</td>
-<td>tests.RegisteredUserCheckoutProduct@510f3d34</td></tr>
-<tr>
-<td title='tests.RegisteredUserCheckoutProduct.RegisteredUserCanLogout()'><b>RegisteredUserCanLogout</b><br>Test class: tests.RegisteredUserCheckoutProduct</td>
-<td></td>
-<td>1</td>
-<td>tests.RegisteredUserCheckoutProduct@510f3d34</td></tr>
-<tr>
-<td title='tests.EmailFriendTest.RegisteredUserCanSendProductToFriend()'><b>RegisteredUserCanSendProductToFriend</b><br>Test class: tests.EmailFriendTest</td>
-<td></td>
-<td>0</td>
-<td>tests.EmailFriendTest@65e98b1c</td></tr>
-<tr>
-<td title='tests.MyAccountTest.userCanLogout()'><b>userCanLogout</b><br>Test class: tests.MyAccountTest</td>
-<td></td>
-<td>1</td>
-<td>tests.MyAccountTest@61322f9d</td></tr>
-<tr>
-<td title='tests.AddProductToWishlistTest.UserCanRemoveProductFromCart()'><b>UserCanRemoveProductFromCart</b><br>Test class: tests.AddProductToWishlistTest</td>
-<td></td>
-<td>0</td>
-<td>tests.AddProductToWishlistTest@2925bf5b</td></tr>
-<tr>
-<td title='tests.EmailFriendTest.UserCanSearchAutoSuggest()'><b>UserCanSearchAutoSuggest</b><br>Test class: tests.EmailFriendTest</td>
-<td></td>
-<td>1</td>
-<td>tests.EmailFriendTest@65e98b1c</td></tr>
+<td>tests.AddProductToWishlistTest@2ab2710</td></tr>
 <tr>
 <td title='tests.ProductHoverMenuTest.UserCanSelectSubCategoryFromMainMenu()'><b>UserCanSelectSubCategoryFromMainMenu</b><br>Test class: tests.ProductHoverMenuTest</td>
 <td></td>
 <td>0</td>
-<td>tests.ProductHoverMenuTest@6ad82709</td></tr>
+<td>tests.ProductHoverMenuTest@149f5761</td></tr>
+<tr>
+<td title='tests.AddProductReviewTest.RegisteredUserCanReviewProduct()'><b>RegisteredUserCanReviewProduct</b><br>Test class: tests.AddProductReviewTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddProductReviewTest@42f9c19a</td></tr>
+<tr>
+<td title='tests.RegisteredUserCheckoutProduct.UserCanAddProductToShoppingCart()'><b>UserCanAddProductToShoppingCart</b><br>Test class: tests.RegisteredUserCheckoutProduct</td>
+<td></td>
+<td>1</td>
+<td>tests.RegisteredUserCheckoutProduct@2ba33e2c</td></tr>
+<tr>
+<td title='tests.AddProductToShoppingCartTest.UserCanRemoveProductFromCart()'><b>UserCanRemoveProductFromCart</b><br>Test class: tests.AddProductToShoppingCartTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddProductToShoppingCartTest@64bfd6fd</td></tr>
+<tr>
+<td title='tests.EmailFriendTest.RegisteredUserCanLogout()'><b>RegisteredUserCanLogout</b><br>Test class: tests.EmailFriendTest</td>
+<td></td>
+<td>0</td>
+<td>tests.EmailFriendTest@3350ebdd</td></tr>
+<tr>
+<td title='tests.MyAccountTest.userCanRegisterAndLoginSuccessfully()'><b>userCanRegisterAndLoginSuccessfully</b><br>Test class: tests.MyAccountTest</td>
+<td></td>
+<td>1</td>
+<td>tests.MyAccountTest@6818d900</td></tr>
+<tr>
+<td title='tests.UserRegistrationTest.userCanRegisterAndLoginSuccessfully()'><b>userCanRegisterAndLoginSuccessfully</b><br>Test class: tests.UserRegistrationTest</td>
+<td></td>
+<td>2</td>
+<td>tests.UserRegistrationTest@153d4abb</td></tr>
+<tr>
+<td title='tests.AddProductReviewTest.UserCanSearchAutoSuggest()'><b>UserCanSearchAutoSuggest</b><br>Test class: tests.AddProductReviewTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddProductReviewTest@42f9c19a</td></tr>
+<tr>
+<td title='tests.RegisteredUserCheckoutProduct.UserCanSearchWithAutosuggest()'><b>UserCanSearchWithAutosuggest</b><br>Test class: tests.RegisteredUserCheckoutProduct</td>
+<td></td>
+<td>1</td>
+<td>tests.RegisteredUserCheckoutProduct@2ba33e2c</td></tr>
+<tr>
+<td title='tests.RegisteredUserCheckoutProduct.RegisteredUserCanLogout()'><b>RegisteredUserCanLogout</b><br>Test class: tests.RegisteredUserCheckoutProduct</td>
+<td></td>
+<td>0</td>
+<td>tests.RegisteredUserCheckoutProduct@2ba33e2c</td></tr>
+<tr>
+<td title='tests.AddProductToShoppingCartTest.UserCanSearchAutoSuggest()'><b>UserCanSearchAutoSuggest</b><br>Test class: tests.AddProductToShoppingCartTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddProductToShoppingCartTest@64bfd6fd</td></tr>
+<tr>
+<td title='tests.AddProductToWishlistTest.UserCanRemoveProductFromCart()'><b>UserCanRemoveProductFromCart</b><br>Test class: tests.AddProductToWishlistTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddProductToWishlistTest@2ab2710</td></tr>
+<tr>
+<td title='tests.ContactUsTest.UserCanUseContactUs()'><b>UserCanUseContactUs</b><br>Test class: tests.ContactUsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ContactUsTest@29c2c826</td></tr>
+<tr>
+<td title='tests.RegisteredUserCheckoutProduct.UserCanRegisterSuccessfully()'><b>UserCanRegisterSuccessfully</b><br>Test class: tests.RegisteredUserCheckoutProduct</td>
+<td></td>
+<td>1</td>
+<td>tests.RegisteredUserCheckoutProduct@2ba33e2c</td></tr>
+<tr>
+<td title='tests.ChangeCurrencyTest.UserCanChangeCurrency()'><b>UserCanChangeCurrency</b><br>Test class: tests.ChangeCurrencyTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ChangeCurrencyTest@253b380a</td></tr>
+<tr>
+<td title='tests.EmailFriendTest.RegisteredUserCanSendProductToFriend()'><b>RegisteredUserCanSendProductToFriend</b><br>Test class: tests.EmailFriendTest</td>
+<td></td>
+<td>0</td>
+<td>tests.EmailFriendTest@3350ebdd</td></tr>
+<tr>
+<td title='tests.EmailFriendTest.UserCanSearchAutoSuggest()'><b>UserCanSearchAutoSuggest</b><br>Test class: tests.EmailFriendTest</td>
+<td></td>
+<td>1</td>
+<td>tests.EmailFriendTest@3350ebdd</td></tr>
+<tr>
+<td title='tests.ChangeCurrencyTest.UserCanSearchWithAutoSuggest()'><b>UserCanSearchWithAutoSuggest</b><br>Test class: tests.ChangeCurrencyTest</td>
+<td></td>
+<td>1</td>
+<td>tests.ChangeCurrencyTest@253b380a</td></tr>
+<tr>
+<td title='tests.AddProductReviewTest.RegisteredUserCanLogout()'><b>RegisteredUserCanLogout</b><br>Test class: tests.AddProductReviewTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddProductReviewTest@42f9c19a</td></tr>
+<tr>
+<td title='tests.SearchProductTest.UserCanSearchForProduct()'><b>UserCanSearchForProduct</b><br>Test class: tests.SearchProductTest</td>
+<td></td>
+<td>1</td>
+<td>tests.SearchProductTest@1f193686</td></tr>
+<tr>
+<td title='tests.EmailFriendTest.userCanRegisterAndLoginSuccessfully()'><b>userCanRegisterAndLoginSuccessfully</b><br>Test class: tests.EmailFriendTest</td>
+<td></td>
+<td>1</td>
+<td>tests.EmailFriendTest@3350ebdd</td></tr>
+<tr>
+<td title='tests.AddProductReviewTest.userCanRegisterAndLoginSuccessfully()'><b>userCanRegisterAndLoginSuccessfully</b><br>Test class: tests.AddProductReviewTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddProductReviewTest@42f9c19a</td></tr>
+<tr>
+<td title='tests.AddProductToShoppingCartTest.UserCanAddProductToShoppingCart()'><b>UserCanAddProductToShoppingCart</b><br>Test class: tests.AddProductToShoppingCartTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddProductToShoppingCartTest@64bfd6fd</td></tr>
+<tr>
+<td title='tests.MyAccountTest.userCanChangePasswordSuccessfully()'><b>userCanChangePasswordSuccessfully</b><br>Test class: tests.MyAccountTest</td>
+<td></td>
+<td>1</td>
+<td>tests.MyAccountTest@6818d900</td></tr>
+<tr>
+<td title='tests.RegisteredUserCheckoutProduct.UserCanCheckoutProduct()'><b>UserCanCheckoutProduct</b><br>Test class: tests.RegisteredUserCheckoutProduct</td>
+<td></td>
+<td>7</td>
+<td>tests.RegisteredUserCheckoutProduct@2ba33e2c</td></tr>
+<tr>
+<td title='tests.SearchProductUsingAutosugesst.UserCanSearchAutoSuggest()'><b>UserCanSearchAutoSuggest</b><br>Test class: tests.SearchProductUsingAutosugesst</td>
+<td></td>
+<td>1</td>
+<td>tests.SearchProductUsingAutosugesst@31e72cbc</td></tr>
+<tr>
+<td title='tests.AddProductToWishlistTest.UserCanAddProductToWishlist()'><b>UserCanAddProductToWishlist</b><br>Test class: tests.AddProductToWishlistTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddProductToWishlistTest@2ab2710</td></tr>
 </table><p>
 </body>
 </html>
