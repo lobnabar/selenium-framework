@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+<testng-results ignored="0" total="30" passed="28" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٠١ EET" name="nopCommerce Regression Suite" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٩ EET" duration-ms="127734">
+  <suite started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٥:٤٧ EET" name="nopCommerce Regression Suite" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٢٦ EET" duration-ms="99136">
     <groups>
     </groups>
-    <test started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٠١ EET" name="Regression Test" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٩ EET" duration-ms="127734">
+    <test started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٥:٤٧ EET" name="Regression Test" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٢٦ EET" duration-ms="99136">
       <class name="tests.EmailFriendTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.EmailFriendTest@2b662a77]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠١ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٣ EET" duration-ms="1925" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.EmailFriendTest@441cc260]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٨ EET" name="setUp" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٩ EET" duration-ms="1805" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,29 +18,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="userCanRegisterAndLoginSuccessfully()[pri:1, instance:tests.EmailFriendTest@2b662a77]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٣ EET" name="userCanRegisterAndLoginSuccessfully" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٤ EET" duration-ms="1600" status="PASS">
+        <test-method signature="userCanRegisterAndLoginSuccessfully()[pri:1, instance:tests.EmailFriendTest@441cc260]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٩ EET" name="userCanRegisterAndLoginSuccessfully" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤١ EET" duration-ms="1184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCanRegisterAndLoginSuccessfully -->
-        <test-method signature="UserCanSearchAutoSuggest()[pri:2, instance:tests.EmailFriendTest@2b662a77]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٤ EET" name="UserCanSearchAutoSuggest" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٦ EET" duration-ms="1530" status="PASS">
+        <test-method signature="UserCanSearchAutoSuggest()[pri:2, instance:tests.EmailFriendTest@441cc260]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤١ EET" name="UserCanSearchAutoSuggest" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤٢ EET" duration-ms="1307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanSearchAutoSuggest -->
-        <test-method signature="RegisteredUserCanSendProductToFriend()[pri:3, instance:tests.EmailFriendTest@2b662a77]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٦ EET" name="RegisteredUserCanSendProductToFriend" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٧ EET" duration-ms="878" status="PASS">
+        <test-method signature="RegisteredUserCanSendProductToFriend()[pri:3, instance:tests.EmailFriendTest@441cc260]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤٢ EET" name="RegisteredUserCanSendProductToFriend" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤٣ EET" duration-ms="688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisteredUserCanSendProductToFriend -->
-        <test-method signature="RegisteredUserCanLogout()[pri:4, instance:tests.EmailFriendTest@2b662a77]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٧ EET" name="RegisteredUserCanLogout" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٧ EET" duration-ms="327" status="PASS">
+        <test-method signature="RegisteredUserCanLogout()[pri:4, instance:tests.EmailFriendTest@441cc260]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤٣ EET" name="RegisteredUserCanLogout" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤٣ EET" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisteredUserCanLogout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EmailFriendTest@2b662a77]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٧ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٧ EET" duration-ms="100" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EmailFriendTest@441cc260]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤٣ EET" name="tearDown" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤٣ EET" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.EmailFriendTest -->
       <class name="tests.AddProductToWishlistTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.AddProductToWishlistTest@77847718]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٩ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥١ EET" duration-ms="1965" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.AddProductToWishlistTest@2032e725]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٢٧ EET" name="setUp" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٢٩ EET" duration-ms="1992" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,25 +51,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="UserCanSearchAutoSuggest()[pri:1, instance:tests.AddProductToWishlistTest@77847718]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥١ EET" name="UserCanSearchAutoSuggest" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٢ EET" duration-ms="1551" status="PASS">
+        <test-method signature="UserCanSearchAutoSuggest()[pri:1, instance:tests.AddProductToWishlistTest@2032e725]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٢٩ EET" name="UserCanSearchAutoSuggest" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٠ EET" duration-ms="1529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanSearchAutoSuggest -->
-        <test-method signature="UserCanAddProductToWishlist()[pri:2, instance:tests.AddProductToWishlistTest@77847718]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٢ EET" name="UserCanAddProductToWishlist" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٣ EET" duration-ms="520" status="PASS">
+        <test-method signature="UserCanAddProductToWishlist()[pri:2, instance:tests.AddProductToWishlistTest@2032e725]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٠ EET" name="UserCanAddProductToWishlist" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣١ EET" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanAddProductToWishlist -->
-        <test-method signature="UserCanRemoveProductFromCart()[pri:3, instance:tests.AddProductToWishlistTest@77847718]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٣ EET" name="UserCanRemoveProductFromCart" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٣ EET" duration-ms="301" status="PASS">
+        <test-method signature="UserCanRemoveProductFromCart()[pri:3, instance:tests.AddProductToWishlistTest@2032e725]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣١ EET" name="UserCanRemoveProductFromCart" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣١ EET" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanRemoveProductFromCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddProductToWishlistTest@77847718]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٣ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٣ EET" duration-ms="88" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddProductToWishlistTest@2032e725]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣١ EET" name="tearDown" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣١ EET" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.AddProductToWishlistTest -->
       <class name="tests.UserRegistrationTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.UserRegistrationTest@223d2c72]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٠١ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٢٣ EET" duration-ms="22210" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.UserRegistrationTest@65004ff6]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٥:٤٧ EET" name="setUp" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٠٧ EET" duration-ms="20514" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,17 +80,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="userCanRegisterAndLoginSuccessfully()[pri:0, instance:tests.UserRegistrationTest@223d2c72]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٢٣ EET" name="userCanRegisterAndLoginSuccessfully" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٢٨ EET" duration-ms="4546" status="PASS">
+        <test-method signature="userCanRegisterAndLoginSuccessfully()[pri:0, instance:tests.UserRegistrationTest@65004ff6]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٠٧ EET" name="userCanRegisterAndLoginSuccessfully" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:١١ EET" duration-ms="3794" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCanRegisterAndLoginSuccessfully -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserRegistrationTest@223d2c72]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٢٨ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٢٨ EET" duration-ms="171" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserRegistrationTest@65004ff6]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:١١ EET" name="tearDown" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:١٢ EET" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.UserRegistrationTest -->
       <class name="tests.RegisteredUserCheckoutProduct">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.RegisteredUserCheckoutProduct@1623b78d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤١ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤٣ EET" duration-ms="1850" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.RegisteredUserCheckoutProduct@66e889df]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٠٢ EET" name="setUp" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٠٤ EET" duration-ms="1824" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,33 +101,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="UserCanRegisterSuccessfully()[pri:1, instance:tests.RegisteredUserCheckoutProduct@1623b78d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤٣ EET" name="UserCanRegisterSuccessfully" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤٥ EET" duration-ms="1750" status="PASS">
+        <test-method signature="UserCanRegisterSuccessfully()[pri:1, instance:tests.RegisteredUserCheckoutProduct@66e889df]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٠٤ EET" name="UserCanRegisterSuccessfully" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٠٥ EET" duration-ms="1300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanRegisterSuccessfully -->
-        <test-method signature="UserCanSearchWithAutosuggest()[pri:2, instance:tests.RegisteredUserCheckoutProduct@1623b78d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤٥ EET" name="UserCanSearchWithAutosuggest" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤٧ EET" duration-ms="1784" status="PASS">
+        <test-method signature="UserCanSearchWithAutosuggest()[pri:2, instance:tests.RegisteredUserCheckoutProduct@66e889df]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٠٥ EET" name="UserCanSearchWithAutosuggest" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٠٧ EET" duration-ms="1960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanSearchWithAutosuggest -->
-        <test-method signature="UserCanAddProductToShoppingCart()[pri:3, instance:tests.RegisteredUserCheckoutProduct@1623b78d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤٧ EET" name="UserCanAddProductToShoppingCart" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤٨ EET" duration-ms="1561" status="PASS">
+        <test-method signature="UserCanAddProductToShoppingCart()[pri:3, instance:tests.RegisteredUserCheckoutProduct@66e889df]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٠٧ EET" name="UserCanAddProductToShoppingCart" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٠٩ EET" duration-ms="1379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanAddProductToShoppingCart -->
-        <test-method signature="UserCanCheckoutProduct()[pri:4, instance:tests.RegisteredUserCheckoutProduct@1623b78d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤٨ EET" name="UserCanCheckoutProduct" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٠ EET" duration-ms="12136" status="PASS">
+        <test-method signature="UserCanCheckoutProduct()[pri:4, instance:tests.RegisteredUserCheckoutProduct@66e889df]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٠٩ EET" name="UserCanCheckoutProduct" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:١٨ EET" duration-ms="9818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanCheckoutProduct -->
-        <test-method signature="RegisteredUserCanLogout()[pri:5, instance:tests.RegisteredUserCheckoutProduct@1623b78d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٠ EET" name="RegisteredUserCanLogout" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠١ EET" duration-ms="477" status="PASS">
+        <test-method signature="RegisteredUserCanLogout()[pri:5, instance:tests.RegisteredUserCheckoutProduct@66e889df]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:١٨ EET" name="RegisteredUserCanLogout" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:١٩ EET" duration-ms="443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisteredUserCanLogout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisteredUserCheckoutProduct@1623b78d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠١ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠١ EET" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisteredUserCheckoutProduct@66e889df]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:١٩ EET" name="tearDown" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:١٩ EET" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.RegisteredUserCheckoutProduct -->
       <class name="tests.MyAccountTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.MyAccountTest@7f0eb4b4]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠٧ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٢٩ EET" duration-ms="22519" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.MyAccountTest@73a00e09]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤٣ EET" name="setUp" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤٥ EET" duration-ms="1786" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -138,29 +138,185 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="userCanRegisterAndLoginSuccessfully()[pri:1, instance:tests.MyAccountTest@7f0eb4b4]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٢٩ EET" name="userCanRegisterAndLoginSuccessfully" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣١ EET" duration-ms="1851" status="PASS">
+        <test-method signature="userCanRegisterAndLoginSuccessfully()[pri:1, instance:tests.MyAccountTest@73a00e09]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤٥ EET" name="userCanRegisterAndLoginSuccessfully" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤٦ EET" duration-ms="1258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCanRegisterAndLoginSuccessfully -->
-        <test-method signature="userCanChangePasswordSuccessfully()[pri:2, instance:tests.MyAccountTest@7f0eb4b4]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣١ EET" name="userCanChangePasswordSuccessfully" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٤ EET" duration-ms="2812" status="PASS">
+        <test-method signature="userCanChangePasswordSuccessfully()[pri:2, instance:tests.MyAccountTest@73a00e09]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤٦ EET" name="userCanChangePasswordSuccessfully" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤٧ EET" duration-ms="1451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCanChangePasswordSuccessfully -->
-        <test-method signature="userCanLogout()[pri:3, instance:tests.MyAccountTest@7f0eb4b4]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٤ EET" name="userCanLogout" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٦ EET" duration-ms="1387" status="PASS">
+        <test-method signature="userCanLogout()[pri:3, instance:tests.MyAccountTest@73a00e09]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤٧ EET" name="userCanLogout" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤٩ EET" duration-ms="1085" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="/logout" class="ico-logout">...</a> is not clickable at point (1084, 22). Other element would receive the click: <p class="content">...</p>
+  (Session info: chrome=146.0.7680.178)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [471dc4817ed833b1bd84f73876d04c96, clickElement {id=f.F1A2CBC93A06CBBCE696A73ADA515D16.d.434684AFEB46792AE476DA00F2F58133.e.157}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\COMPUS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60171}, goog:processID: 14824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on windows (471dc4817ed833b1bd84f73876d04c96)] -> xpath: //a[text()='Log out']]
+Session ID: 471dc4817ed833b1bd84f73876d04c96]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/logout" class="ico-logout">...</a> is not clickable at point (1084, 22). Other element would receive the click: <p class="content">...</p>
+  (Session info: chrome=146.0.7680.178)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [471dc4817ed833b1bd84f73876d04c96, clickElement {id=f.F1A2CBC93A06CBBCE696A73ADA515D16.d.434684AFEB46792AE476DA00F2F58133.e.157}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\COMPUS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60171}, goog:processID: 14824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on windows (471dc4817ed833b1bd84f73876d04c96)] -> xpath: //a[text()='Log out']]
+Session ID: 471dc4817ed833b1bd84f73876d04c96
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at pages.PageBase.clickButton(PageBase.java:21)
+at pages.HomePage.userLogout(HomePage.java:61)
+at tests.MyAccountTest.userCanLogout(MyAccountTest.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCanLogout -->
-        <test-method signature="userCanLoginWithNewPassword()[pri:4, instance:tests.MyAccountTest@7f0eb4b4]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٦ EET" name="userCanLoginWithNewPassword" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٧ EET" duration-ms="1110" status="PASS">
+        <test-method signature="userCanLoginWithNewPassword()[pri:4, instance:tests.MyAccountTest@73a00e09]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٤٩ EET" name="userCanLoginWithNewPassword" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٥٩ EET" duration-ms="10028" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Log in"}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [471dc4817ed833b1bd84f73876d04c96, findElement {using=link text, value=Log in}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\COMPUS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60171}, goog:processID: 14824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 471dc4817ed833b1bd84f73876d04c96]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Log in"}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [471dc4817ed833b1bd84f73876d04c96, findElement {using=link text, value=Log in}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\COMPUS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60171}, goog:processID: 14824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 471dc4817ed833b1bd84f73876d04c96
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at pages.PageBase.clickButton(PageBase.java:21)
+at pages.HomePage.openLoginPage(HomePage.java:51)
+at tests.MyAccountTest.userCanLoginWithNewPassword(MyAccountTest.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCanLoginWithNewPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MyAccountTest@7f0eb4b4]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٧ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٧ EET" duration-ms="88" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MyAccountTest@73a00e09]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٥٩ EET" name="tearDown" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٥٩ EET" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.MyAccountTest -->
       <class name="tests.SearchProductTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.SearchProductTest@c8c12ac]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠١ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٣ EET" duration-ms="1826" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.SearchProductTest@444548a0]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:١٩ EET" name="setUp" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٢١ EET" duration-ms="1766" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -171,17 +327,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="UserCanSearchForProduct()[pri:0, instance:tests.SearchProductTest@c8c12ac]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٣ EET" name="UserCanSearchForProduct" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٥ EET" duration-ms="2375" status="PASS">
+        <test-method signature="UserCanSearchForProduct()[pri:0, instance:tests.SearchProductTest@444548a0]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٢١ EET" name="UserCanSearchForProduct" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٢٣ EET" duration-ms="1912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanSearchForProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchProductTest@c8c12ac]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٥ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٥ EET" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchProductTest@444548a0]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٢٣ EET" name="tearDown" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٢٣ EET" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.SearchProductTest -->
       <class name="tests.ProductHoverMenuTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.ProductHoverMenuTest@5c33f1a9]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٧ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٩ EET" duration-ms="2152" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.ProductHoverMenuTest@26dcd8c0]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٥٩ EET" name="setUp" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٠٠ EET" duration-ms="1842" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -192,17 +348,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="UserCanSelectSubCategoryFromMainMenu()[pri:0, instance:tests.ProductHoverMenuTest@5c33f1a9]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٣٩ EET" name="UserCanSelectSubCategoryFromMainMenu" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤١ EET" duration-ms="2364" status="PASS">
+        <test-method signature="UserCanSelectSubCategoryFromMainMenu()[pri:0, instance:tests.ProductHoverMenuTest@26dcd8c0]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٠٠ EET" name="UserCanSelectSubCategoryFromMainMenu" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٠٢ EET" duration-ms="1600" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanSelectSubCategoryFromMainMenu -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductHoverMenuTest@5c33f1a9]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤١ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٤١ EET" duration-ms="97" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductHoverMenuTest@26dcd8c0]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٠٢ EET" name="tearDown" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٠٢ EET" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.ProductHoverMenuTest -->
       <class name="tests.ChangeCurrencyTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.ChangeCurrencyTest@7f3b84b8]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٣ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٥ EET" duration-ms="1859" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.ChangeCurrencyTest@4d23015c]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣١ EET" name="setUp" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٣ EET" duration-ms="1808" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -213,21 +369,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="UserCanChangeCurrency()[pri:1, instance:tests.ChangeCurrencyTest@7f3b84b8]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٥ EET" name="UserCanChangeCurrency" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٦ EET" duration-ms="566" status="PASS">
+        <test-method signature="UserCanChangeCurrency()[pri:1, instance:tests.ChangeCurrencyTest@4d23015c]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٣ EET" name="UserCanChangeCurrency" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٣ EET" duration-ms="431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanChangeCurrency -->
-        <test-method signature="UserCanSearchWithAutoSuggest()[pri:2, instance:tests.ChangeCurrencyTest@7f3b84b8]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٦ EET" name="UserCanSearchWithAutoSuggest" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٧ EET" duration-ms="1547" status="PASS">
+        <test-method signature="UserCanSearchWithAutoSuggest()[pri:2, instance:tests.ChangeCurrencyTest@4d23015c]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٣ EET" name="UserCanSearchWithAutoSuggest" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٥ EET" duration-ms="1470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanSearchWithAutoSuggest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ChangeCurrencyTest@7f3b84b8]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٧ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٧ EET" duration-ms="87" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ChangeCurrencyTest@4d23015c]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٥ EET" name="tearDown" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٥ EET" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.ChangeCurrencyTest -->
       <class name="tests.SearchProductUsingAutosugesst">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.SearchProductUsingAutosugesst@6adbc9d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٥ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٧ EET" duration-ms="1888" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.SearchProductUsingAutosugesst@3766c667]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٢٣ EET" name="setUp" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٢٥ EET" duration-ms="1767" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -238,17 +394,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="UserCanSearchAutoSuggest()[pri:0, instance:tests.SearchProductUsingAutosugesst@6adbc9d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٧ EET" name="UserCanSearchAutoSuggest" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٩ EET" duration-ms="1635" status="PASS">
+        <test-method signature="UserCanSearchAutoSuggest()[pri:0, instance:tests.SearchProductUsingAutosugesst@3766c667]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٢٥ EET" name="UserCanSearchAutoSuggest" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٢٦ EET" duration-ms="1434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanSearchAutoSuggest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchProductUsingAutosugesst@6adbc9d]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٩ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٩:٠٩ EET" duration-ms="65" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchProductUsingAutosugesst@3766c667]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٢٦ EET" name="tearDown" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٧:٢٦ EET" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.SearchProductUsingAutosugesst -->
       <class name="tests.ContactUsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.ContactUsTest@57a3af25]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٧ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٩ EET" duration-ms="1827" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.ContactUsTest@383f1975]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٥ EET" name="setUp" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٦ EET" duration-ms="1769" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -259,17 +415,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="UserCanUseContactUs()[pri:0, instance:tests.ContactUsTest@57a3af25]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٥٩ EET" name="UserCanUseContactUs" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠١ EET" duration-ms="1323" status="PASS">
+        <test-method signature="UserCanUseContactUs()[pri:0, instance:tests.ContactUsTest@383f1975]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٦ EET" name="UserCanUseContactUs" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٨ EET" duration-ms="1104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanUseContactUs -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactUsTest@57a3af25]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠١ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٨:٠١ EET" duration-ms="60" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactUsTest@383f1975]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٨ EET" name="tearDown" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٣٨ EET" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.ContactUsTest -->
       <class name="tests.AddProductToShoppingCartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.AddProductToShoppingCartTest@158d2680]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤١ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٣ EET" duration-ms="2006" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.AddProductToShoppingCartTest@64030b91]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٢١ EET" name="setUp" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٢٢ EET" duration-ms="1845" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -280,25 +436,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="UserCanSearchAutoSuggest()[pri:1, instance:tests.AddProductToShoppingCartTest@158d2680]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٣ EET" name="UserCanSearchAutoSuggest" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٤ EET" duration-ms="1700" status="PASS">
+        <test-method signature="UserCanSearchAutoSuggest()[pri:1, instance:tests.AddProductToShoppingCartTest@64030b91]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٢٢ EET" name="UserCanSearchAutoSuggest" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٢٤ EET" duration-ms="1547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanSearchAutoSuggest -->
-        <test-method signature="UserCanAddProductToShoppingCart()[pri:2, instance:tests.AddProductToShoppingCartTest@158d2680]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٤ EET" name="UserCanAddProductToShoppingCart" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٩ EET" duration-ms="4163" status="PASS">
+        <test-method signature="UserCanAddProductToShoppingCart()[pri:2, instance:tests.AddProductToShoppingCartTest@64030b91]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٢٤ EET" name="UserCanAddProductToShoppingCart" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٢٦ EET" duration-ms="2468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanAddProductToShoppingCart -->
-        <test-method signature="UserCanRemoveProductFromCart()[pri:3, instance:tests.AddProductToShoppingCartTest@158d2680]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٩ EET" name="UserCanRemoveProductFromCart" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٩ EET" duration-ms="238" status="PASS">
+        <test-method signature="UserCanRemoveProductFromCart()[pri:3, instance:tests.AddProductToShoppingCartTest@64030b91]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٢٦ EET" name="UserCanRemoveProductFromCart" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٢٧ EET" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanRemoveProductFromCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddProductToShoppingCartTest@158d2680]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٩ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤٩ EET" duration-ms="64" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddProductToShoppingCartTest@64030b91]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٢٧ EET" name="tearDown" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٢٧ EET" duration-ms="63" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.AddProductToShoppingCartTest -->
       <class name="tests.AddProductReviewTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.AddProductReviewTest@131774fe]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٢٨ EET" name="setUp" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٣٠ EET" duration-ms="2008" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.AddProductReviewTest@3eed0f5]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:١٢ EET" name="setUp" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:١٣ EET" duration-ms="1890" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,23 +465,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="userCanRegisterAndLoginSuccessfully()[pri:1, instance:tests.AddProductReviewTest@131774fe]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٣٠ EET" name="userCanRegisterAndLoginSuccessfully" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٣٢ EET" duration-ms="1835" status="PASS">
+        <test-method signature="userCanRegisterAndLoginSuccessfully()[pri:1, instance:tests.AddProductReviewTest@3eed0f5]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:١٣ EET" name="userCanRegisterAndLoginSuccessfully" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:١٥ EET" duration-ms="1226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCanRegisterAndLoginSuccessfully -->
-        <test-method signature="UserCanSearchAutoSuggest()[pri:2, instance:tests.AddProductReviewTest@131774fe]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٣٢ EET" name="UserCanSearchAutoSuggest" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٣٨ EET" duration-ms="5599" status="PASS">
+        <test-method signature="UserCanSearchAutoSuggest()[pri:2, instance:tests.AddProductReviewTest@3eed0f5]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:١٥ EET" name="UserCanSearchAutoSuggest" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:١٨ EET" duration-ms="3354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanSearchAutoSuggest -->
-        <test-method signature="RegisteredUserCanReviewProduct()[pri:3, instance:tests.AddProductReviewTest@131774fe]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٣٨ EET" name="RegisteredUserCanReviewProduct" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٣٩ EET" duration-ms="1457" status="PASS">
+        <test-method signature="RegisteredUserCanReviewProduct()[pri:3, instance:tests.AddProductReviewTest@3eed0f5]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:١٨ EET" name="RegisteredUserCanReviewProduct" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:١٩ EET" duration-ms="1046" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisteredUserCanReviewProduct -->
-        <test-method signature="RegisteredUserCanLogout()[pri:4, instance:tests.AddProductReviewTest@131774fe]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٣٩ EET" name="RegisteredUserCanLogout" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤١ EET" duration-ms="1478" status="PASS">
+        <test-method signature="RegisteredUserCanLogout()[pri:4, instance:tests.AddProductReviewTest@3eed0f5]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:١٩ EET" name="RegisteredUserCanLogout" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٢٠ EET" duration-ms="1378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisteredUserCanLogout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddProductReviewTest@131774fe]" started-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤١ EET" name="tearDown" finished-at="٢٠٢٦-٠٣-٢٩T٢٢:٥٧:٤١ EET" duration-ms="117" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddProductReviewTest@3eed0f5]" started-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٢٠ EET" name="tearDown" finished-at="٢٠٢٦-٠٤-٠٤T٢٠:٤٦:٢١ EET" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
